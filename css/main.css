@@ -1,43 +1,119 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #1D1828;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/* Global Content */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-ul.posts li {
-    list-style: none;
+.containertwo {
+  width: 80%;
+  margin-left: 10%;
+  overflow: hidden;
+  position: absolute;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #111111 8px solid;
+  text-decoration: bold;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  margin-top: 10px;
+  float: right;
+}
+
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+header .highlight {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#particles-js {
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/triangle.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#information {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#information .box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+#information .box img {
+  width: 200px;
 }
