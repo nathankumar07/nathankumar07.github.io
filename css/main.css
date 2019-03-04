@@ -113,7 +113,7 @@ header .highlight {
   float: left;
   width: 30%;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   color: #ffffff;
 }
 
@@ -126,6 +126,7 @@ header .highlight {
 footer {
   background: #35424a;
   color: #ffffff;
+  padding-top: 30px;
   padding-bottom: 30px;
   min-height: 70px;
   border-top: #111111 1px solid;
@@ -139,5 +140,4 @@ footer a {
   text-transform: capitalize;
   text-align: center;
   font-size: 20px;
-  margin-top: 50px;
 }
