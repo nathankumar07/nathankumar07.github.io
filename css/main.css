@@ -141,3 +141,36 @@ footer p {
   font-size: 50px;
   font-weight: 100;
 }
+
+.about {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 65%;
+	height: auto;
+	margin-top: 5%;
+	font-size: 25px;
+	margin-left: 10%;
+	font-weight: 100;
+}
+
+.about p {
+	border-color: #ffffff;
+	border-width: 5px;
+	border-style: double;
+}
+
+.current {
+	font-weight: 20;
+}
+
+.border {
+	background-color: #cccccc;
+  border-radius: 10px;
+}
+
+.fill {
+	background-color: #ffffff;
+	border-radius: 10px;
+	color: black;
+}
